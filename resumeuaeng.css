@@ -2,8 +2,17 @@ body {
 	background-color: #E6E6FA;
 }
 
-img {
-	margin: 50px auto;
+#sh {
+	background-color: #F0FFFF;
+	margin-top: -30px;
+	margin-bottom: 10px;
+	margin-left: -25px;
+	margin-right: -25px;
+	padding: 5px;
+	padding-top: 10px;
+}
+
+#foto {
 	display: block;
 	border-radius: 50%;
 	border: 3px solid #F0FFFF;
@@ -13,9 +22,19 @@ img {
     margin: 0 auto;
 }
 
-div {
+img {
+	background-color: #F0FFFF;
+	border-radius: 50%;
+	border: 3px solid #F0FFFF;
+    width: 30px;
+    height: 100%;
+	padding: 5px auto;
+    margin: 0 auto;
+}
+
+#fon {
 	background: #7B68EE;
-	width: 1000px;
+	width: 700px;
 	max-width: 95%;
 	margin: -10px auto;
 	padding: 25px;
@@ -31,4 +50,24 @@ p {
     border: 3px solid #F0FFFF;
 	background-color: #F0FFFF;
 	font-size: 20px;
+}
+
+a {
+	text-decoration: none;
+	color: #4B0082;
+}
+
+button {
+	padding: 5px;
+    margin: 0 auto;
+	float: right;
+	color: #F0FFFF;
+    border-radius: 25px;
+    border: 3px solid #F0FFFF;
+	background-color: #000;
+	font-size: 20px;
+}
+
+button:hover {
+   cursor: pointer;
 }
